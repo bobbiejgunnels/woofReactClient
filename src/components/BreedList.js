@@ -25,12 +25,14 @@ class BreedList extends React.Component{
 	render(){
 		return(
 			<div> 
-				Breeds:
+				
+				<div className="Breeds">
 				{
 				  this.state.breeds.map(breed => (
-				    <Breed stats={breed} />
+				    <Breed stats={breed} /> 
 				   ))
 				}
+				</div>
 		 	</div>	
 	 	)
 	}

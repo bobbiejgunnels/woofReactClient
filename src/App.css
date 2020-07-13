@@ -1,5 +1,67 @@
+.h2 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 25px;
+}
+
+.title {
+  z-index: 1000;
+  position: absolute;
+  left: 50px;
+  top: 2px;
+  transform: translate3d(0px, 0px, 0px);
+  font-size: 180px;
+  color: #fff;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
 .App {
+  left: 20px;
+  top: 20px;
+  letter-spacing: 0.2;
   text-align: center;
+  margin-bottom: 60px;
+  margin-top: 60px;
+
+
+}
+
+
+
+.navbar {
+  display: flex;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  align-items: center;
+  height: 60px;
+  font-size:20px;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  background-color: #fff;
+
+  }
+
+  .navbar .logo {
+    height: 30px;
+    right:20px;
+    position: absolute;
+  }
+
+.navlink {
+  top: 10px;
+  font-family: 'Yellowtail', cursive;
+  padding: 10px;
+  font-size: 25px;
+  text-decoration: none;
+  text-align: center;
+  word-break: break-all;
+  color: black;
+  font-weight: 700;
+
 }
 
 .App-logo {
@@ -18,7 +80,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: left;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -36,3 +98,109 @@
     transform: rotate(360deg);
   }
 }
+
+/*.Breeds {
+  background-color: #d9b3ff;
+  padding: 40px;
+  margin: 0 auto;
+  width: 50%;
+}*/
+
+.Breed {
+  background-color: #fff;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+
+.props {
+  font-weight: bold;
+}
+
+.Page {
+
+  max-width: 450px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("https://www.justfoodfordogs.com/content/images/thumbs/0000977.jpeg");
+    /* Set a specific height */
+    height: 600px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 1600px;
+
+}
+
+.img {
+  height: 250px;
+  position: absolute;
+  left: 430px;
+}
+
+
+.ul .li {
+  text-align: center;
+  font-color: blue;
+}
+
+
+.parallax2 {
+    /* The image used */
+    background-image: url("https://cdn.shopify.com/s/files/1/0125/4191/9289/files/waylon_400x400_crop_center.png?v=1581975784");
+    /* Set a specific height */
+    height: 400px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    }
+
+    .parallax3 {
+    /* The image used */
+    background-image: url("https://www.pfma.org.uk/_assets/images/general/image/Collection%20of%20Dogs%20wb(1).jpg");
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    }
+
+.parallaxbreed {
+  /* The image used */
+    background-image: url("https://www.sweety.pet/wp-content/uploads/2017/08/play_dead_sweety_pet.jpg");
+    /* Set a specific height */
+    height: 600px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    }
+
+.footer {
+    position: fixed;
+    background: #fff;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+    
+  }
+
+  .footertext {
+    left: 20px;
+    text-align: left;
+    padding-left: 20px;
+    font-family: 'Yellowtail', cursive;
+  }
