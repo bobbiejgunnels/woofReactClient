@@ -10,6 +10,7 @@ class BreedList extends React.Component{
 		}
 		this.sendSuggestion = this.sendSuggestion.bind(this);
 		this.handleInputChange = this.handleInputChange.bind(this);
+		this.handleSearchQueryChange = this.handleSearchQueryChange.bind(this);
 	}
 
 	componentDidMount() {
@@ -41,7 +42,6 @@ class BreedList extends React.Component{
 			hair_Type: this.state.hair_Type,
 		}
 
-		debugger
 		fetch('https://localhost:5001/suggestions/InsertSuggestion', {
 		  method: 'POST', // or 'PUT'
 		  headers: {
@@ -58,10 +58,29 @@ class BreedList extends React.Component{
 		});
     }
 
+    handleSearchQueryChange(e) {
+    	const value = e.target.value;
+
+    	const results = [];
+    	this.state.breeds.forEach((breed) => {
+    		const name = breed.name.toLowerCase();
+    		const query = value.toLowerCase();
+
+    		if (name.match(query)) {
+    			results.push(breed);
+    		}
+    	});
+
+    	this.setState({
+    		breeds: results
+    	});
+    }
+
 	render(){
 		return(
 			<div> 
-				
+				<input value={this.state.searchQueary} onChange={this.handleSearchQueryChange} />
+
 				<div className="Breeds">
 				{
 				  this.state.breeds.map(breed => (

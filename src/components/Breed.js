@@ -3,10 +3,6 @@ import React from 'react';
 class Breed extends React.Component{
 	render(){
 		return (
-			<div>
-			<div className="parallaxbreed">
-			</div>
-			
 			<div class="Breed">
 				<h2>{this.props.stats.name}</h2>
 					<div>
@@ -16,8 +12,6 @@ class Breed extends React.Component{
 						<p><b>Hair type: {this.props.stats.hair_Type}</b></p>
 					</div>
 			</div>
-		 	
-		 </div>
 		 )
 		 
 		

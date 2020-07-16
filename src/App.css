@@ -99,18 +99,18 @@
   }
 }
 
-/*.Breeds {
-  background-color: #d9b3ff;
-  padding: 40px;
-  margin: 0 auto;
-  width: 50%;
-}*/
+.Breeds {
+  background-color: teal; 
+}
 
 .Breed {
-  background-color: #fff;
-  max-width: 400px;
+  background-color: rgba(0,0,0,0.5);
+  border-bottom: 1px solid grey;
+  max-width: 760px;
+  text-align: left;
   margin: 0 auto;
   padding: 10px;
+  border-radius: 3px;
 }
 
 
