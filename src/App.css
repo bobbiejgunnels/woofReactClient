@@ -6,7 +6,7 @@
 .title {
   z-index: 1000;
   position: absolute;
-  left: 50px;
+  left: 500px;
   top: 2px;
   transform: translate3d(0px, 0px, 0px);
   font-size: 180px;
@@ -128,12 +128,12 @@
 
 .parallax {
     /* The image used */
-    background-image: url("https://www.justfoodfordogs.com/content/images/thumbs/0000977.jpeg");
+    background-image: url("https://www.pfma.org.uk/_assets/images/general/image/Collection%20of%20Dogs%20wb(1).jpg");
     /* Set a specific height */
     height: 600px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: bottom;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: 1600px;
 
@@ -142,7 +142,7 @@
 .img {
   height: 250px;
   position: absolute;
-  left: 430px;
+  left: 850px;
 }
 
 
@@ -154,7 +154,7 @@
 
 .parallax2 {
     /* The image used */
-    background-image: url("https://cdn.shopify.com/s/files/1/0125/4191/9289/files/waylon_400x400_crop_center.png?v=1581975784");
+    background-image: url("https://www.pfma.org.uk/_assets/images/general/image/Collection%20of%20Dogs%20wb(1).jpg");
     /* Set a specific height */
     height: 400px;
     /* Create the parallax scrolling effect */
@@ -166,7 +166,7 @@
 
     .parallax3 {
     /* The image used */
-    background-image: url("https://www.pfma.org.uk/_assets/images/general/image/Collection%20of%20Dogs%20wb(1).jpg");
+    background-image: url(./assets/images/dog.png);
     /* Set a specific height */
     height: 500px;
     /* Create the parallax scrolling effect */
@@ -204,3 +204,13 @@
     padding-left: 20px;
     font-family: 'Yellowtail', cursive;
   }
+
+
+.suggestionSection {
+
+  background-image: url("https://data.whicdn.com/images/162850681/original.jpg");
+  margin: 250px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 600px;
+}

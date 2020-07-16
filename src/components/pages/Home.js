@@ -30,7 +30,7 @@ function Home() {
   			</body>
   			<footer class="text-muted footer">
         <div class="container footertext">
-            &copy; 2020 - Bark  
+            &copy; 2020 - Woof  
         </div>
     </footer>
   	</div>
