@@ -3,13 +3,29 @@ import React from 'react';
 function About() {
   return (
   	<div>
-  	<div class="parallax3">
+      
+            
+  	 <div class="parallax3">
+     <h2 className="titleabout">About me!</h2>
   	 </div>
-  		<h2>About</h2>
-  		<p>Doggo ipsum borkdrive wow very. Long water shoob he made many woofs pupperino stop it fren you are doing me the shock I am bekom fat, length boy what a nice floof borkdrive very hand that feed shibe. Very good spot shibe floofs boof heckin angery woofer sub woofer adorable doggo, heckin angery woofer you are doin me a concern sub woofer dat tungg tho.  Dat tungg tho adorable doggo sub woofer aqua doggo doing me a frighten, you are doin me a concern big ol doing me a frighten. Such treat ruff puggorino super chub thicc wow very biscit, super chub long woofer smol borking doggo with a long snoot for pats. Borking doggo you are doing me a frighten bork vvv, heckin angery woofer maximum borkdrive.</p>
-  		<p>Doggo ipsum borkdrive wow very. Long water shoob he made many woofs pupperino stop it fren you are doing me the shock I am bekom fat, length boy what a nice floof borkdrive very hand that feed shibe. Very good spot shibe floofs boof heckin angery woofer sub woofer adorable doggo, heckin angery woofer you are doin me a concern sub woofer dat tungg tho.  Dat tungg tho adorable doggo sub woofer aqua doggo doing me a frighten, you are doin me a concern big ol doing me a frighten. Such treat ruff puggorino super chub thicc wow very biscit, super chub long woofer smol borking doggo with a long snoot for pats. Borking doggo you are doing me a frighten bork vvv, heckin angery woofer maximum borkdrive.</p>
-  		<p>Doggo ipsum borkdrive wow very. Long water shoob he made many woofs pupperino stop it fren you are doing me the shock I am bekom fat, length boy what a nice floof borkdrive very hand that feed shibe. Very good spot shibe floofs boof heckin angery woofer sub woofer adorable doggo, heckin angery woofer you are doin me a concern sub woofer dat tungg tho.  Dat tungg tho adorable doggo sub woofer aqua doggo doing me a frighten, you are doin me a concern big ol doing me a frighten. Such treat ruff puggorino super chub thicc wow very biscit, super chub long woofer smol borking doggo with a long snoot for pats. Borking doggo you are doing me a frighten bork vvv, heckin angery woofer maximum borkdrive.</p>
-  	</div>
+      
+          
+  		       
+        <h2>I wanted to challenge myself with a React App and combine my love for dogs!</h2>
+        <h3 className="aboutcontent">My name is Bobbie Gunnels and I was raised in Anniston, Alabama. I moved to birmingham when I was 16 years old for a short two years before I made my 23 hour voyage to Denver, Colorado where I was first introduced to software develpment. I wore out my snowboard and camping gear the four years I spent in the Wild West. After I got my fill out the Rocky Mountains I moved back home to Birmingam to be closer to my family and settle down. I worked as a dog groomer and found my husband and lovely step-son. I will be looking forward to finding my first job in my new career. </h3>
+  	<div class="parallax3">
+    <p class="schrader">Meet Schrader!</p>
+      </div>
+  
+
+
+    <footer class="text-muted footer">
+          <div class="container footertext">
+              &copy; 2020 - Woof  
+          </div>
+         </footer>
+    
+    </div>
   )
 }
 
