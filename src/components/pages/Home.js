@@ -13,7 +13,7 @@ function Home() {
   		</header>
   		</div>
       
-      <h4 className="homeinfo">A Single Page React App that consumes my .NET WEBcore API. Allows users to suggest new breeds for the database, and search for breeds.</h4>
+      <h4 className="homeinfo">A Single Page React App that consumes my ASP.NET Core Web API. Allows users to suggest new breeds for the database, and search for breeds.</h4>
   		
       <div className="parallax2">
 

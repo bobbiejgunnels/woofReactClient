@@ -184,7 +184,7 @@
 .parallax3 {
     align-content: center;
     background-image: url(./assets/images/IMG_0275.jpeg); /* schrader */
-    height: 400px;
+    height: 700px;
     background-attachment: fixed;
     background-position: 170px -201px;
     background-repeat: no-repeat;
@@ -252,8 +252,10 @@
 }
 
 .schrader {
-  padding-top: 380px;
-  padding-left: 985px;
+  padding-top: 350px;
+  padding-left: 799px;
+  font-weight: bold;
+  font-size: 40px;
   color: #fff;
 
 }
@@ -264,7 +266,7 @@
 
 .aboutcontent {
   padding-left: 270px;
-  width: 900px;
+  width: 901px;
 }
 
 .BreedSearchInput {
